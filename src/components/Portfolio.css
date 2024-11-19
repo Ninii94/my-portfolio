@@ -1,10 +1,11 @@
 .portfolio {
-  min-height: 100vh;
+  margin: 0;
   background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  padding:0;
   display: flex;
   
-  
 }
+
 
 /* Sidebar Styles */
 .sidebar {
@@ -86,7 +87,7 @@
 
 /* Section Styles */
 .section {
-  padding: 60px 0;
+  padding: 50px 0;
   opacity: 0;
   transform: translateX(50px);
   transition: all 1s ease;
@@ -280,6 +281,9 @@
 
 .contact-item a:hover {
   color: #e91e63;
+}
+.education-item h3{
+  color:#e91e63;
 }
 
 /* Responsive Design */

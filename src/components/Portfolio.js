@@ -145,9 +145,11 @@ const Portfolio = () => {
           <h2>About Me</h2>
           <div className="about-content">
             <p>
-              Passionate software developer with expertise in full-stack development.
-              Committed to creating efficient and innovative solutions while continuously
-              learning and adapting to new technologies.
+            Professional with solid experience in web development and a meticulous focus on quality and precision.
+       Competent in frontend technologies, specializing in React, Next.js, and Angular for efficient and scalable
+ applications. Known for solving problems creatively and delivering innovative solutions. Skilled in team
+ collaboration and staying up-to-date with the latest tech advancements to continuously optimize
+ development processes and improve project efficiency.
             </p>
           </div>
         </section>
@@ -245,6 +247,20 @@ const Portfolio = () => {
                     </div>
                 </div>
             </section>
+              {/* Education Section */}
+    <section id="education" className={`section ${visibleSections['education'] ? 'visible' : ''}`}>
+      <h2>Education</h2>
+      <div className="education-content">
+        <div className="education-item">
+          <h3>National Technological University</h3>
+          <p>Computer Programming / (May 2022 - September 2024)</p>
+        </div>
+        <div className="education-item">
+          <h3>National Technological University</h3>
+          <p>Systems Engineering / (March 2021 - December 2023)</p>
+        </div>
+      </div>
+    </section>
 
         {/* Contact Section */}
         <section id="contact" className={`section ${visibleSections['contact'] ? 'visible' : ''}`}>
@@ -294,11 +310,11 @@ const Portfolio = () => {
             <div className="contact-info">
               <div className="contact-item">
                 <Mail />
-                <a href="mailto:nicki.pastrana@gmail.com">nicki.pastrana@gmail.com</a>
+                <a href="mailto:stefany.mon73@gmail.com">stefany.mon73@gmail.com</a>
               </div>
               <div className="contact-item">
                 <MapPin />
-                <span>Argentina</span>
+                <span>Argentina, Tucumán</span>
               </div>
               <div className="contact-item">
                 <ExternalLink />
